@@ -1,9 +1,17 @@
-#edit-field-project-wrapper, #edit-field-projektphase-wrapper, #edit-field-tags-wrapper {
+#edit-field-project-wrapper, #edit-field-projektphase-wrapper, #edit-field-tags-wrapper, #edit-field-datum-0-value, .form-checkbox {
    float: left;
    margin-right: 20px;
+}
+
+#edit-actions {
+   clear: left;
 }
 
 #edit-field-project {
    width: 200px;
    height: 200px;
+}
+
+#site-name a, #header h1 a, #header h1 a:link, #header h1 a:visited {
+   font-size:22px;
 }
