@@ -43,6 +43,6 @@ input.form-autocomplete, input.form-text, input.form-tel, input.form-email, inpu
 
 }
 
-.view .view-taxonomy-term .view-id-taxonomy_term tr{
+.view.view-taxonomy-term.view-id-taxonomy_term tr{
    border-bottom: 2px solid black;
 }
