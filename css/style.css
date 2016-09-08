@@ -1,0 +1,9 @@
+#edit-field-project-wrapper, #edit-field-projektphase-wrapper, #edit-field-tags-wrapper {
+   float: left;
+   margin-right: 20px;
+}
+
+#edit-field-project {
+   width: 200px;
+   height: 200px;
+}
