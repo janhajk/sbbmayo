@@ -23,3 +23,7 @@
 #site-name a, #header h1 a, #header h1 a:link, #header h1 a:visited {
    font-size:22px;
 }
+
+input.form-autocomplete, input.form-text, input.form-tel, input.form-email, input.form-url, input.form-search, input.form-number, input.form-color, input.form-file, input.form-date, input.form-time, textarea.form-textarea {
+   
+}
