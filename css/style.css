@@ -1,4 +1,4 @@
-#edit-field-project-wrapper, #edit-field-projektphase-wrapper, #edit-field-tags-wrapper, #edit-field-datum-0-value, .form-checkbox {
+#edit-field-project-wrapper, #edit-field-projektphase-wrapper, #edit-field-tags-wrapper, #edit-field-eintragstyp-wrapper, #edit-field-datum-0-value, .form-checkbox, .form-radio {
    float: left;
    margin-right: 20px;
 }
@@ -7,9 +7,17 @@
    clear: left;
 }
 
+#edit-title-wrapper, #edit-body-wrapper {
+   clear: left;
+}
+
 #edit-field-project {
    width: 200px;
    height: 200px;
+}
+
+#edit-field-datum-wrapper h4 {
+   font-size: 0.929em;
 }
 
 #site-name a, #header h1 a, #header h1 a:link, #header h1 a:visited {
