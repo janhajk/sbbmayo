@@ -2,47 +2,42 @@
    float: left;
    margin-right: 20px;
 }
-
 #edit-actions {
    clear: left;
 }
-
 #edit-title-wrapper, #edit-body-wrapper {
    clear: left;
 }
-
 #edit-field-project {
    width: 200px;
    height: 200px;
 }
-
 #edit-field-datum-wrapper h4 {
    font-size: 0.929em;
 }
-
 #site-name a, #header h1 a, #header h1 a:link, #header h1 a:visited {
    font-size:22px;
 }
-
 input.form-autocomplete, input.form-text, input.form-tel, input.form-email, input.form-url, input.form-search, input.form-number, input.form-color, input.form-file, input.form-date, input.form-time, textarea.form-textarea {
-   
-      box-sizing:border-box;
-      padding:.3em .4em .3em .5em;
-      max-width:100%;
-      border:1px solid #b8b8b8;
-      border-top-color:#999;
-      background:#fff;
-      color:#333;
-      border-radius:2px;
-      background:#fcfcfa;
-      box-shadow:inset 0 1px 2px rgba(0, 0, 0, .125);
-      font-size:1em;
-      color:#595959;
-      -webkit-transition:border linear 0.2s, box-shadow linear 0.2s;
-      transition:border linear 0.2s, box-shadow linear 0.2s;
-
+   box-sizing:border-box;
+   padding:.3em .4em .3em .5em;
+   max-width:100%;
+   border:1px solid #b8b8b8;
+   border-top-color:#999;
+   background:#fff;
+   color:#333;
+   border-radius:2px;
+   background:#fcfcfa;
+   box-shadow:inset 0 1px 2px rgba(0, 0, 0, .125);
+   font-size:1em;
+   color:#595959;
+   -webkit-transition:border linear 0.2s, box-shadow linear 0.2s;
+   transition:border linear 0.2s, box-shadow linear 0.2s;
 }
-
-.view.view-taxonomy-term.view-id-taxonomy_term tr{
+/* Linie nach jedem Eintrag */
+.view.view-taxonomy-term.view-id-taxonomy_term tr {
    border-bottom: 2px solid black;
+}
+.view-filters fieldset.fieldgroup {
+   min-width:150px;
 }
